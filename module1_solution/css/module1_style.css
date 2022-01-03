@@ -1,0 +1,10 @@
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color:plum;
+    border-radius: .2rem;
+  }
+.footer{
+    background-color:plum;
+    padding: 2rem 1rem;
+}
