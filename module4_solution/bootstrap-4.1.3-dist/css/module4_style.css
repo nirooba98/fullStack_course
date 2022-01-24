@@ -1,0 +1,56 @@
+body{
+
+    background-color:#F9E79F;
+
+}
+.jumbotron{
+background-color: white;
+
+}
+.footer{
+    background-color:white;
+    padding: 20px;
+    margin-top: 5px;
+}
+nav{
+    background-color: #A91B0D;
+
+  }
+#logo_brand{
+    height: 70px;
+    width: 80px;
+}
+.close{
+    color: floralwhite;
+}
+.modal-header{
+    background-color: #A91B0D ;
+}
+.modal-footer {
+    background-color:#F9E79F ;
+}
+.modal-body{
+    background-color: white;
+}
+.carousel-item{
+    background-color: #A91B0D;
+}
+.carousel-item {
+    height: 200px;
+  }
+  
+  .carousel-item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 200px;
+  }
+  #carouselButton {
+    right:0px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+}
+#carousel-pause, #carousel-play{
+    background-color:white ;
+}

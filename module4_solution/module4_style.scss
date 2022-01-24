@@ -1,0 +1,57 @@
+$lt-gray: #ddd;
+$background-dark: #A91B0D;
+$background-light: white;
+$background-pale: #F9E79F;
+$button-color: floralwhite;
+
+// Height variables
+$carousel-item-height: 200px;
+
+@mixin height-adjust {
+    height: 70px;
+    width: 80px;
+}
+
+body, .modal-footer{
+    background-color: $background-pale;
+}
+nav{
+    background-color: $background-dark;
+}
+.jumbotron{
+    background-color: $background-light;
+}
+.footer, .modal-body{
+    background-color: $background-light;
+    padding: 20px;
+    margin-top: 5px;
+}
+.modal-header{
+    background-color: $background-dark;
+    .close{
+        color: $button-color;
+     }
+}
+#logo_brand{
+   @include height-adjust;
+}
+
+.carousel-item{
+    background-color: $background-dark;
+    height: $carousel-item-height;
+}
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: $carousel-item-height;
+}
+#carouselButton {
+    right:0px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+}
+#carousel-pause, #carousel-play{
+    background-color: $background-light;
+}
